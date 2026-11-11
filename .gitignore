@@ -1,0 +1,58 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.next-build/
+/.next-old/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+todo.txt
+
+# local db backups (may contain user data, never commit)
+/backups/
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files (never upload secrets to GitHub)
+.env
+.env*.local
+.env.production
+
+# vercel
+.vercel
+
+# Lint/Type reports
+lint_report.txt
+check-lint.tsx
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# AI harness skills / config (installed locally, don't commit)
+.claude/
+.agents/
+
+# graphify output (regenerated on every run)
+graphify-out/
+scripts
+GRAPHIC
